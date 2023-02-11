@@ -7,6 +7,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>CSR Movie App</h1>
+        <h2>by Alexis.R</h2>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
