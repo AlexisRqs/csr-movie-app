@@ -38,9 +38,13 @@
 }
 
 h1 {
-  line-height: 0px;
+  line-height: 0;
 }
 
 h2 {
-  line-height: 0px;
+  line-height: 0;
+}
+
+p {
+  line-height: 0;
 }
