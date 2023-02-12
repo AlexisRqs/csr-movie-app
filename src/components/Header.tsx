@@ -1,9 +1,14 @@
 import React, {ReactElement, FC} from "react";
 
-const Header: FC<any> = (): ReactElement => {
+// define interface representing component prps
+interface Props {
+    title: String
+}
+
+const Header: FC<Props> = ({title}): ReactElement => {
     return (
         <div>
-            {'Header'}
+            {title}
         </div>
     );
 };

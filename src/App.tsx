@@ -2,9 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import './styles/App.css';
 
+import Header from './components/Header';
+
 function App() {
   return (
     <div className="App">
+      <Header title="CSR Movie App by Alexis.R" />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>CSR Movie App</h1>
