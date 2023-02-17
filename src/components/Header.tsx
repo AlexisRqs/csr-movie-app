@@ -1,6 +1,6 @@
 import React, {ReactElement, FC} from "react";
 
-// define interface representing component prps
+// define interface representing component props
 interface Props {
     title: String
 }
